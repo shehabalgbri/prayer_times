@@ -317,7 +317,7 @@ function PrayerCard() {
           sx={{
             color: "#f2e8cb",
             fontWeight: "bold",
-            minWidth: { xs: "70%", md: "100%" },
+            minWidth:"100%",
             height: "100%",
             borderRadius: "20px",
             margin: "10px",
