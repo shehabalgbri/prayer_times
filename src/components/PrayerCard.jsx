@@ -203,7 +203,7 @@ function PrayerCard() {
         <TableCell
           sx={{
             color: theme === "dark" ? "text.primary" : "text.secondary",
-            fontSize: "20px",
+            fontSize: {xs:"15px",sm:"18px",md:"20px"},
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
