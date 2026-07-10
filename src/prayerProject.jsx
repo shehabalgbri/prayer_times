@@ -21,7 +21,7 @@ function PrayerProject() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        gap: "50px",
+        gap: {xs:"20px",sm:"30px",md:"40px",lg:"50px"},
         padding: "20px",
         borderRadius: "20px",
         boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",

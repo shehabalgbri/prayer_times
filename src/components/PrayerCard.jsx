@@ -97,12 +97,12 @@ function PrayerCard() {
 
   //  مصفوفه باوقات الصلاة (الصلوات الخمس فقط بدون الشروق)
   const prayeritems = [
-    { id: 1, name: "الفجر",   time: prayerTimes.Fajr,    icon: "🌄", key: "Fajr" },
-    { id: 2, name: "الشروق",  time: prayerTimes.Sunrise,  icon: "🌅", key: "Sunrise" },
-    { id: 3, name: "الظهر",   time: prayerTimes.Dhuhr,   icon: "☀️", key: "Dhuhr" },
-    { id: 4, name: "العصر",   time: prayerTimes.Asr,     icon: "🕌", key: "Asr" },
-    { id: 5, name: "المغرب",  time: prayerTimes.Maghrib, icon: "🌅", key: "Maghrib" },
-    { id: 6, name: "العشاء",  time: prayerTimes.Isha,    icon: "🌙", key: "Isha" },
+    { id: 1, name: "الفجر", time: prayerTimes.Fajr, icon: "🌄", key: "Fajr" },
+    { id: 2, name: "الشروق", time: prayerTimes.Sunrise, icon: "🌅", key: "Sunrise" },
+    { id: 3, name: "الظهر", time: prayerTimes.Dhuhr, icon: "☀️", key: "Dhuhr" },
+    { id: 4, name: "العصر", time: prayerTimes.Asr, icon: "🕌", key: "Asr" },
+    { id: 5, name: "المغرب", time: prayerTimes.Maghrib, icon: "🌅", key: "Maghrib" },
+    { id: 6, name: "العشاء", time: prayerTimes.Isha, icon: "🌙", key: "Isha" },
   ];
 
   // ========== الوقت المحلي للمدينة المحددة ==========
@@ -153,29 +153,29 @@ function PrayerCard() {
 
   // مصفوفه بلمدن والدول
   const cityitem = [
-    { id: "1",  name: "صنعاء",        city: "Sana'a",      country: "YE" },
-    { id: "2",  name: "الرياض",       city: "Riyadh",      country: "SA" },
-    { id: "3",  name: "الجزائر",      city: "Algiers",     country: "DZ" },
-    { id: "4",  name: "الرباط",       city: "Rabat",       country: "MA" },
-    { id: "5",  name: "القاهرة",      city: "Cairo",       country: "EG" },
-    { id: "6",  name: "فلسطين",       city: "Jerusalem",   country: "PS" },
-    { id: "7",  name: "سوريا",        city: "Damascus",    country: "SY" },
-    { id: "8",  name: "لبنان",        city: "Beirut",      country: "LB" },
-    { id: "9",  name: "الأردن",       city: "Amman",       country: "JO" },
-    { id: "10", name: "العراق",       city: "Baghdad",     country: "IQ" },
-    { id: "11", name: "الكويت",       city: "Kuwait City", country: "KW" },
-    { id: "12", name: "قطر",          city: "Doha",        country: "QA" },
-    { id: "13", name: "البحرين",      city: "Manama",      country: "BH" },
-    { id: "14", name: "الإمارات",     city: "Abu Dhabi",   country: "AE" },
-    { id: "15", name: "عمان",         city: "Muscat",      country: "OM" },
-    { id: "16", name: "تونس",         city: "Tunis",       country: "TN" },
-    { id: "17", name: "ليبيا",        city: "Tripoli",     country: "LY" },
-    { id: "18", name: "السودان",      city: "Khartoum",    country: "SD" },
-    { id: "19", name: "الصومال",      city: "Mogadishu",   country: "SO" },
-    { id: "20", name: "جيبوتي",       city: "Djibouti",    country: "DJ" },
-    { id: "21", name: "موريتانيا",    city: "Nouakchott",  country: "MR" },
-    { id: "22", name: "جزر القمر",    city: "Moroni",      country: "KM" },
-    { id: "23", name: "جزر المالديف", city: "Male",        country: "MV" },
+    { id: "1", name: "صنعاء", city: "Sana'a", country: "YE" },
+    { id: "2", name: "الرياض", city: "Riyadh", country: "SA" },
+    { id: "3", name: "الجزائر", city: "Algiers", country: "DZ" },
+    { id: "4", name: "الرباط", city: "Rabat", country: "MA" },
+    { id: "5", name: "القاهرة", city: "Cairo", country: "EG" },
+    { id: "6", name: "فلسطين", city: "Jerusalem", country: "PS" },
+    { id: "7", name: "سوريا", city: "Damascus", country: "SY" },
+    { id: "8", name: "لبنان", city: "Beirut", country: "LB" },
+    { id: "9", name: "الأردن", city: "Amman", country: "JO" },
+    { id: "10", name: "العراق", city: "Baghdad", country: "IQ" },
+    { id: "11", name: "الكويت", city: "Kuwait City", country: "KW" },
+    { id: "12", name: "قطر", city: "Doha", country: "QA" },
+    { id: "13", name: "البحرين", city: "Manama", country: "BH" },
+    { id: "14", name: "الإمارات", city: "Abu Dhabi", country: "AE" },
+    { id: "15", name: "عمان", city: "Muscat", country: "OM" },
+    { id: "16", name: "تونس", city: "Tunis", country: "TN" },
+    { id: "17", name: "ليبيا", city: "Tripoli", country: "LY" },
+    { id: "18", name: "السودان", city: "Khartoum", country: "SD" },
+    { id: "19", name: "الصومال", city: "Mogadishu", country: "SO" },
+    { id: "20", name: "جيبوتي", city: "Djibouti", country: "DJ" },
+    { id: "21", name: "موريتانيا", city: "Nouakchott", country: "MR" },
+    { id: "22", name: "جزر القمر", city: "Moroni", country: "KM" },
+    { id: "23", name: "جزر المالديف", city: "Male", country: "MV" },
   ];
 
   // الاسم العربي للمدينة المحددة
@@ -203,7 +203,7 @@ function PrayerCard() {
         <TableCell
           sx={{
             color: theme === "dark" ? "text.primary" : "text.secondary",
-            fontSize: {xs:"15px",sm:"18px",md:"20px"},
+            fontSize: { xs: "15px", sm: "18px", md: "20px" },
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
@@ -224,8 +224,8 @@ function PrayerCard() {
                   ? "#f4c87a"
                   : "#3a5450"
                 : item.name === "الشروق" && theme === "dark"
-                ? "#ada897ff"
-                : "",
+                  ? "#ada897ff"
+                  : "",
               fontWeight: isNext ? "bold" : "normal",
             }}
           >
@@ -317,7 +317,7 @@ function PrayerCard() {
           sx={{
             color: "#f2e8cb",
             fontWeight: "bold",
-            minWidth:"100%",
+            minWidth: "100%",
             height: "100%",
             borderRadius: "20px",
             margin: "10px",
@@ -386,7 +386,7 @@ function PrayerCard() {
           sx={{
             width: { xs: "90%", md: "100%" },
             borderRadius: "16px",
-            padding:{xs:"12px 14px",sm:"16px 24px"},
+            padding: { xs: "12px 14px", sm: "16px 24px" },
             background:
               theme === "dark"
                 ? "linear-gradient(135deg, #3d2504, #5d6d61)"
@@ -427,7 +427,7 @@ function PrayerCard() {
           {/* اسم الصلاة ووقتها */}
           <Typography
             variant="h5"
-            sx={{ color: "#f2e8cb", fontWeight: "bold" }}
+            sx={{ color: "#f2e8cb", fontWeight: "bold", fontSize: { xs: "1rem", sm: "1.25rem", md: "1.5rem" },textAlign: "center",wordBreak:"break-word" }}
           >
             {nextPrayer.icon} {nextPrayer.name} (في تمام الساعة {nextPrayer.time})
           </Typography>
@@ -454,7 +454,8 @@ function PrayerCard() {
                 color: "#f4c87a",
                 fontWeight: "bold",
                 fontFamily: "monospace",
-                letterSpacing: "4px",
+                letterSpacing:{xs:"2px",sm:"4px"},
+                fontSize: { xs: "1.6rem", sm: "2rem", md: "2.125rem" },
                 mt: "2px",
                 direction: "ltr",
               }}
@@ -472,7 +473,7 @@ function PrayerCard() {
             component={Paper}
             sx={{ backgroundColor: theme === "dark" ? "#1a0e06" : "#FFFDF8" }}
           >
-            <Table sx={{ minWidth: { xs:"100%", md: 450 } }} aria-label="simple table">
+            <Table sx={{ minWidth: { xs: "100%", md: 450 } }} aria-label="simple table">
               <TableHead>
                 <TableRow>
                   <TableCell
