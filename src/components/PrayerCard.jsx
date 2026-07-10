@@ -386,7 +386,7 @@ function PrayerCard() {
           sx={{
             width: { xs: "90%", md: "100%" },
             borderRadius: "16px",
-            padding: "16px 24px",
+            padding:{xs:"12px 14px",sm:"16px 24px"},
             background:
               theme === "dark"
                 ? "linear-gradient(135deg, #3d2504, #5d6d61)"
