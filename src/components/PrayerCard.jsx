@@ -472,7 +472,7 @@ function PrayerCard() {
             component={Paper}
             sx={{ backgroundColor: theme === "dark" ? "#1a0e06" : "#FFFDF8" }}
           >
-            <Table sx={{ minWidth: { xs: 400, md: 450 } }} aria-label="simple table">
+            <Table sx={{ minWidth: { xs:"100%", md: 450 } }} aria-label="simple table">
               <TableHead>
                 <TableRow>
                   <TableCell
