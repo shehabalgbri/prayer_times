@@ -78,6 +78,7 @@ function Prayerheader() {
               variant="h3"
               sx={{
                 color: theme === "dark" ? "text.primary" : "text.secondary",
+                fontSize:{xs:"1.8rem",sm:"2.5rem",md:"3rem"}
               }}
             >
               مواقيت الصلاة
